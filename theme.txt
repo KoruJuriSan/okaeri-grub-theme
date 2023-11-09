@@ -1,0 +1,39 @@
+# global
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+
+# terminal
+terminal-font = "Victor's pixel 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# boot menu
++ boot_menu {
+  left = 40%
+  top = 25%
+  width = 20%
+  height = 40%
+  item_font = "Victor's pixel 16"
+  item_color = "#000000"
+  selected_item_color = "#ff0000"
+  item_height = 24
+  item_padding = 5
+  item_spacing = 10
+  item_align = center
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# username :
++ label {
+  top = 17.5%
+  left = 53%
+  width = 30%
+  align = "left"
+  text = "KoruSAMA"
+  color = "#ff0000"
+  font = "Yusei Magic 16"
+}
